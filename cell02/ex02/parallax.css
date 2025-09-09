@@ -1,0 +1,44 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* Parallax common style */
+.parallax {
+    height: 100vh; /* Full viewport height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+.parallax-1 {
+    background-image: url('image1.jpg'); /* 🔹 ใส่รูปแรกที่นี่ */
+}
+
+.parallax-2 {
+    background-image: url('image2.jpg'); /* 🔹 ใส่รูปสองที่นี่ */
+}
+
+/* Middle content block */
+.content {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
