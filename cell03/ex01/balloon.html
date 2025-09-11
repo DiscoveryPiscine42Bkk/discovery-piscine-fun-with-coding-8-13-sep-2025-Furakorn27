@@ -33,7 +33,7 @@
         let colorIndex = 0;
         let size = 200;
 
-        // คลิก → ขยาย +10px และเปลี่ยนสี (วนไปข้างหน้า)
+       
         balloon.addEventListener('click', () => {
             size += 10;
             colorIndex = (colorIndex + 1) % colors.length;
@@ -41,7 +41,7 @@
             balloon.style.height = size + 'px';
             balloon.style.backgroundColor = colors[colorIndex];
 
-            // ถ้าเกิน 420px → ระเบิดกลับค่าเดิม
+            
             if (size > 420) {
                 size = 200;
                 colorIndex = 0;

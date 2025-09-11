@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Pontano+Sans:wght@300..700&display=swap');
+body {
+    background-image: url('../im/พื้นหลัง.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    margin: 0;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 1000px;
+    font-family: "Pontano Sans";
+}
+
+.about-title {
+    font-size: 96px;
+    font-weight: bold;
+    margin-top: -40px;
+    font-family: "Playfair Display SC";
+    font-weight: 300;
+}
+
+.group-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    font-family: "Kanit";
+    font-weight: 300;
+}
+
+.profile {
+    display: flex;
+    justify-content: center; /* จัดกลางแนวนอน */
+    align-items: center; /* จัดกลางแนวตั้ง */
+    height: 100vh; /* ทำให้ div เต็มหน้าจอ */
+}
+
+.profile img {
+    width: 770px;
+    height: 862px;
+    object-fit: cover;
+   
+   
+}
+
+.profile p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "serif";
+}
+
+.empty-box {
+    width: 200px;
+    height: 250px;
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 0px solid #00000000;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Pontano Sans";
+}
+
+a:hover {
+    color: rgb(22, 227, 213);
+}
+
+.home-text {
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px;  
+    color: white; 
+    padding: 10px 15px;   
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: "Pontano Sans";
+
+}
